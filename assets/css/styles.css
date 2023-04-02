@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @font-face {
   font-family: "Geogrotesque Compressed";
   src: local("../font/Geogrotesque Compressed Cond Semibold"),
@@ -16,21 +10,31 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #d47755;
-  font-family: Geogrotesque Compressed, Arial, sans-serif;
+  font-family: Geogrotesque Compressed, Source Sans Pro, Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-/* heading and logo */
-header, #main-outer{
-    max-width: 1280px;
-    margin: 0 auto;
+/* Sections Layout */
+header,
+#main-container,
+#about-container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
+/* heading and logo */
 
 h1 {
   text-transform: uppercase;
@@ -41,8 +45,8 @@ h1 {
 #logo {
   float: left;
   font-size: 140%;
-  margin-left: 30px;
   margin-top: 20px;
+  margin-left:20px;
 }
 #menu,
 #logo {
@@ -82,39 +86,49 @@ h1 {
 
 #main-outer {
   width: 100%;
-  padding: 0 30px;
   color: #fafafa;
+  overflow: hidden;
+}
 
+#main-container {
+  overflow: hidden;
 }
 
 #main-image-container,
-#main-content {
+#main-text {
   width: 50%;
-  padding: 40px;
+}
+#main-text {
+  float: right;
+  margin: 15% auto;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 20px;
 }
 
 #main-image-container {
   float: left;
+  padding: 5%;
 }
 
-#main-image {
+#main-image-container img {
   border: 3px solid #fafafa;
-}
-#main-content {
-  float: right;
-  margin: 15% 0;
-  font-family: sans-serif;
+  width: 85%;
 }
 
-#main-content p {
+#main-text p {
   width: 100%;
   letter-spacing: 1px;
-  margin: 20px 0;
+  font-size: 120%;
+}
+#main-text p a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 #action-button {
+  margin: 30px auto;
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border: 2px solid #fff;
   background-color: transparent;
@@ -125,7 +139,6 @@ h1 {
   font-family: Geogrotesque Compressed, Arial, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
-
 }
 
 #action-button:hover {
@@ -134,4 +147,68 @@ h1 {
   transition: 0.5s ease-in;
 }
 
+#main-text span {
+    font-size:80%;
+    letter-spacing:1px;
+    font-family: "Source Sans Pro", sans-serif;
+    float:left;
 
+}
+@media screen and (max-width: 768px) {
+  #main-text {
+    margin: 15% 0;
+    font-family: sans-serif;
+    width: 100%;
+  }
+
+  #main-image-container {
+    width: 100%;
+  }
+}
+
+/*  About the book */
+
+#about {
+  background-color: #fafafa;
+  height: 900px;
+  clear: both;
+  border: 2px solid blue;
+}
+
+#about-container {
+  color: #2a2a2a;
+  border: 2px solid brown;
+  overflow: hidden;
+}
+
+#about-container > h2 {
+  text-align: center;
+  font-size: 240%;
+  float: right;
+  margin: 15% 0;
+  text-transform: uppercase;
+}
+#about-text {
+  line-height: 30px;
+  width: 60%;
+  margin: 15% 0;
+}
+
+#about-text > p {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: normal;
+  float: left;
+  letter-spacing: normal;
+  font-size: 130%;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+#about-text p:nth-child(1) {
+  font-size: 160%;
+  font-weight: bold;
+}
+
+#about-text p:nth-child(5) {
+  font-weight: bold;
+}
