@@ -26,10 +26,11 @@ a {
 }
 
 /* heading and logo */
-header, #main-outer {
+header, #main-outer{
     max-width: 1280px;
     margin: 0 auto;
 }
+
 
 h1 {
   text-transform: uppercase;
@@ -80,11 +81,10 @@ h1 {
 /* main  image and text */
 
 #main-outer {
-  height: auto;
   width: 100%;
-  overflow: hidden;
   padding: 0 30px;
   color: #fafafa;
+
 }
 
 #main-image-container,
@@ -135,9 +135,3 @@ h1 {
 }
 
 
-/*  About the book */
-
-#about {
-    background-color: #fafafa;
-    height:600px;
-}
