@@ -46,7 +46,7 @@ h1 {
   float: left;
   font-size: 140%;
   margin-top: 20px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 #menu,
 #logo {
@@ -148,12 +148,12 @@ h1 {
 }
 
 #main-text span {
-    font-size:80%;
-    letter-spacing:1px;
-    font-family: "Source Sans Pro", sans-serif;
-    float:left;
-
+  font-size: 80%;
+  letter-spacing: 1px;
+  font-family: "Source Sans Pro", sans-serif;
+  float: left;
 }
+/* for medium screen sizes from 768px px wide and down */
 @media screen and (max-width: 768px) {
   #main-text {
     margin: 15% 0;
@@ -171,27 +171,22 @@ h1 {
 #about {
   background-color: #fafafa;
   height: 900px;
-  clear: both;
-  border: 2px solid blue;
 }
 
 #about-container {
+  padding: 3%;
   color: #2a2a2a;
-  border: 2px solid brown;
   overflow: hidden;
 }
 
 #about-container > h2 {
-  text-align: center;
   font-size: 240%;
-  float: right;
-  margin: 15% 0;
   text-transform: uppercase;
 }
 #about-text {
   line-height: 30px;
-  width: 60%;
-  margin: 15% 0;
+  width: 45%;
+  margin: 40px 0;
 }
 
 #about-text > p {
@@ -211,4 +206,29 @@ h1 {
 
 #about-text p:nth-child(5) {
   font-weight: bold;
+}
+
+/* for medium screen sizes from 1024px px wide and down */
+@media screen and (max-width: 1024px) {
+  #about-container > h2 {
+    font-size: 220%;
+    margin-left: 5%;
+  }
+
+  #about-text {
+    line-height: 30px;
+    width: 90%;
+    margin: 40px auto;
+  }
+  #about-text > p {
+    font-size: 100%;
+  }
+  #about-text p:nth-child(1) {
+    font-size: 140%;
+    font-weight: bold;
+  }
+
+  #about-text p:nth-child(5) {
+    font-weight: bold;
+  }
 }
