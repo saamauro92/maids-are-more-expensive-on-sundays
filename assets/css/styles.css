@@ -20,8 +20,6 @@ body {
   background-color: #d47755;
   font-family: Geogrotesque Compressed, Arial, sans-serif;
   color: #fafafa;
-  max-width: 1280px;
-  margin: 0 auto;
 }
 
 a {
@@ -29,6 +27,10 @@ a {
 }
 
 /* heading and logo */
+header, #main-outer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 h1 {
   text-transform: uppercase;
@@ -129,4 +131,12 @@ h1 {
   background: #fff;
   color: #d47755;
   transition: 0.5s ease-in;
+}
+
+
+/*  About the book */
+
+#about {
+    background-color: #fafafa;
+    height:600px;
 }
