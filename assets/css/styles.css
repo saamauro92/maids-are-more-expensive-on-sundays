@@ -3,3 +3,18 @@
     padding:0;
     border:none;
 }
+
+@font-face {
+    font-family: 'Geogrotesque Compressed';
+    src: local('../font/Geogrotesque Compressed Cond Semibold'), local('../font/Geogrotesque-Compressed-Cond-Semibold'),
+        url('../font/GeogrotesqueCond-SmBd.woff2') format('woff2'),
+        url('../font/GeogrotesqueCond-SmBd.woff') format('woff'),
+        url('../font/GeogrotesqueCond-SmBd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+h1 {
+    font-family: Geogrotesque Compressed, sans-serif;
+}
