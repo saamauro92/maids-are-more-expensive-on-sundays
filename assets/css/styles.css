@@ -46,6 +46,7 @@ h1 {
 #menu,
 #logo {
   line-height: 75px;
+  color: #fafafa;
 }
 
 #menu {
@@ -83,6 +84,7 @@ h1 {
   width: 100%;
   overflow: hidden;
   padding: 0 30px;
+  color: #fafafa;
 }
 
 #main-image-container,
