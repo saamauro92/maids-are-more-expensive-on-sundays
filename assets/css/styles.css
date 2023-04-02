@@ -29,7 +29,8 @@ a {
 /* Sections Layout */
 header,
 #main-container,
-#about-container {
+#about-container,
+#contact-container {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -47,6 +48,7 @@ h1 {
   font-size: 140%;
   margin-top: 20px;
   margin-left: 20px;
+  width: 35%;
 }
 #menu,
 #logo {
@@ -155,6 +157,9 @@ h1 {
 }
 /* for medium screen sizes from 768px px wide and down */
 @media screen and (max-width: 768px) {
+  #logo {
+    width: 100%;
+  }
   #main-text {
     margin: 15% 0;
     font-family: sans-serif;
@@ -232,3 +237,4 @@ h1 {
     font-weight: bold;
   }
 }
+
