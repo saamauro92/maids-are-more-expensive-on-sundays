@@ -25,10 +25,10 @@
       <nav id="menu">
         <ul>
           <li>
-            <a href="#">About the author </a>
+            <a href="#" aria-label="link to about the author page">About the author </a>
           </li>
           <li>
-            <a href="#">Contact </a>
+            <a href="#" aria-label="this action will scroll down to contact section">Contact </a>
           </li>
         </ul>
       </nav>
@@ -42,12 +42,12 @@
             <p>
               This novel takes place in Bournemouth in contemporary times, when a
               student from Peru comes to England to do a course of English and to
-              fulfil her godfather's will... <a href="#about"> Read more.</a>
+              fulfil her godfather's will... <a href="#about" aria-label="this action will scroll down to about the book section"> Read more.</a>
             </p>
     
-            <a href="#" class="action-button"> Get Book </a>
+            <a href="#" class="action-button" target="_blank" rel="noopener" aria-label="Redirect to an external website in order to purchase book, this action will open a new tab"> Get Book on Amazon</a>
     
-            <span>*This action will redirect to an external website</span>
+            <span>*This action will redirect to an external website in a new tab</span>
           </div>
       <div id="main-image-container">
         <span id="author-title">Alicia I. Ciocca</span>
@@ -111,7 +111,7 @@
                 <label for="message">Message</label>
                 <textarea  id="message" class="form-textarea" name="email_address" required></textarea>
 
-                <input type="submit" value="Send Message" class="action-button">
+                <input type="submit" value="Send Message" class="action-button" aria-label="this button will submit the message">
             </form>
 
 
