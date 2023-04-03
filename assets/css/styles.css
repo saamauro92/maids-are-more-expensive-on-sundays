@@ -10,6 +10,10 @@
   font-style: normal;
 }
 
+html{
+    scroll-behavior:smooth
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +34,8 @@ a {
 header,
 #main-container,
 #about-container,
-#contact-container {
+#contact-container,
+#footer-container {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -183,44 +188,45 @@ h1 {
 /*  About the book */
 
 #about {
-  background-color: #fafafa;
-  height: 900px;
-}
-
-#about-container {
-  padding: 3%;
-  color: #2a2a2a;
-  overflow: hidden;
-}
-
-#about-container > h2 {
-  font-size: 240%;
-  text-transform: uppercase;
-}
-#about-text {
-  line-height: 30px;
-  width: 45%;
-  margin: 40px 0;
-}
-
-#about-text > p {
-  font-family: Source Sans Pro, sans-serif;
-  font-weight: normal;
-  float: left;
-  letter-spacing: normal;
-  font-size: 130%;
-  margin: 10px 0;
-  text-align: justify;
-}
-
-#about-text p:nth-child(1) {
-  font-size: 160%;
-  font-weight: bold;
-}
-
-#about-text p:nth-child(5) {
-  font-weight: bold;
-}
+    background-color: #fafafa;
+    height: 900px;
+  }
+  
+  #about-container {
+    padding: 3%;
+    color: #2a2a2a;
+    overflow: hidden;
+  }
+  
+  #about-container > h2 {
+    font-size: 240%;
+    text-transform: uppercase;
+  }
+  #about-text {
+    line-height: 30px;
+    width: 45%;
+    margin: 40px 0;
+  }
+  
+  #about-text > p {
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: normal;
+    float: left;
+    letter-spacing: normal;
+    font-size: 130%;
+    margin: 10px 0;
+    text-align: justify;
+  }
+  
+  #about-text p:nth-child(1) {
+    font-size: 160%;
+    font-weight: bold;
+  }
+  
+  #about-text p:nth-child(5) {
+    font-weight: bold;
+  }
+  
 
 /* for medium screen sizes from 1024px px wide and down */
 @media screen and (max-width: 1024px) {
@@ -317,4 +323,47 @@ h1 {
 .form-button:hover {
   background-color: #fafafa;
   color: #f16c6b;
+}
+
+/* footer */
+
+#footer-container {
+    color:#fafafa;
+    padding:3%;
+    height:150px;
+    margin:0 auto;
+}
+
+#footer-links {
+    text-align:center;
+}
+
+#footer-links a {
+    color:#fafafa;
+    margin-left:20px;
+    font-size: 110%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+#footer-links a:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.footer-media {
+    text-align:center;
+}
+
+.footer-media>li {
+    display: inline;
+
+}
+
+.footer-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
 }
