@@ -96,7 +96,7 @@ h1 {
 
 /* main  image and text */
 
-#main-outer {
+#main {
   width: 100%;
   color: #fafafa;
   overflow: hidden;
@@ -395,7 +395,7 @@ h1 {
 
 /* about the author page */
 
-#author-about {
+#author {
   width: 100%;
   background-color: #fafafa;
   height: 900px;
@@ -441,7 +441,7 @@ h1 {
 
 /* for medium screen sizes from 768px px wide and down */
 @media screen and (max-width: 1024px) {
-  #author-about {
+  #author {
     height: auto;
   }
 
