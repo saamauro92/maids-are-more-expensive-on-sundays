@@ -244,18 +244,20 @@ h1 {
 }
 
 #about-text p:nth-child(1) {
-  font-size: 160%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 #about-text p:nth-child(5) {
   font-weight: bold;
-}
+} 
 
 /* for medium screen sizes from 1024px px wide and down */
 @media screen and (max-width: 1024px) {
   #about {
+    padding: 20% 0;
     height: auto;
+    
   }
   #about-container > h2 {
     font-size: 220%;
