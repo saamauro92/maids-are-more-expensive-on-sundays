@@ -35,7 +35,8 @@ header,
 #main-container,
 #about-container,
 #contact-container,
-#footer-container {
+#footer-container,
+#author-container {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -43,7 +44,7 @@ header,
 /* heading and logo */
 
 header {
-    overflow:hidden;
+  overflow: hidden;
 }
 h1 {
   text-transform: uppercase;
@@ -192,27 +193,23 @@ h1 {
 #about {
   background-color: #fafafa;
   height: 900px;
-
 }
 
 #about-container {
   color: #2a2a2a;
   overflow: hidden;
-  height:100%;
+  height: 100%;
   padding: 6% 3%;
-
 }
 
 #about-container > h2 {
   font-size: 240%;
   text-transform: uppercase;
-
 }
 #about-text {
   line-height: 30px;
   width: 45%;
   margin: 20px 0;
-
 }
 
 #about-text > p {
@@ -223,7 +220,6 @@ h1 {
   font-size: 130%;
   margin: 10px 0;
   text-align: justify;
-
 }
 
 #about-text p:nth-child(1) {
@@ -242,7 +238,7 @@ h1 {
   }
   #about-container > h2 {
     font-size: 220%;
-    margin-left:5%;
+    margin-left: 5%;
   }
 
   #about-text {
@@ -380,5 +376,68 @@ h1 {
   #footer-links a:hover {
     margin: 15px 0;
     border-bottom: none;
+  }
+}
+
+/* about the author page */
+
+#author-about {
+  width: 100%;
+  background-color: #fafafa;
+  height: 900px;
+}
+#author-container {
+  padding: 5%;
+  overflow: hidden;
+}
+
+#author-text {
+  width: 60%;
+}
+#author-image-container {
+  width: 30%;
+}
+#author-text {
+  float: right;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 5px;
+  line-height: 30px;
+  margin: 60px auto;
+}
+#author-title {
+  font-size: 130%;
+}
+
+#author-image-container {
+  float: left;
+  padding: 0%;
+}
+
+#author-image-container img {
+  border: 3px solid #fafafa;
+  width: 100%;
+  max-width:300px;
+}
+
+#author-text p {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 120%;
+}
+
+/* for medium screen sizes from 768px px wide and down */
+@media screen and (max-width: 1024px) {
+  #author-about {
+    height: auto;
+  }
+
+  #author-text {
+    margin: 15% 0;
+    font-family: sans-serif;
+    width: 100%;
+  }
+
+  #author-image-container {
+    width: 100%;
   }
 }
