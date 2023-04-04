@@ -23,7 +23,7 @@ html {
 
 body {
   background-color: #d47755;
-  font-family: Geogrotesque Compressed, Source Sans Pro, Arial, sans-serif;
+  font-family: "Geogrotesque Compressed", "Source Sans Pro", Arial, sans-serif;
 }
 
 a {
@@ -151,7 +151,7 @@ h1 {
   font-weight: bold;
   letter-spacing: 2px;
   text-align: center;
-  font-family: Geogrotesque Compressed, Arial, sans-serif;
+  font-family: "Geogrotesque Compressed", Arial, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
@@ -179,7 +179,7 @@ h1 {
   }
   #main-text {
     margin: 15% 0;
-    font-family: sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     width: 100%;
   }
 
@@ -213,7 +213,7 @@ h1 {
 }
 
 #about-text > p {
-  font-family: Source Sans Pro, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   float: left;
   letter-spacing: normal;
@@ -416,7 +416,7 @@ h1 {
 #author-image-container img {
   border: 3px solid #fafafa;
   width: 100%;
-  max-width:300px;
+  max-width: 300px;
 }
 
 #author-text p {
@@ -433,7 +433,7 @@ h1 {
 
   #author-text {
     margin: 15% 0;
-    font-family: sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     width: 100%;
   }
 
