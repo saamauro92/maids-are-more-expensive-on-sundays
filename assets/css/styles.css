@@ -187,8 +187,15 @@ h1 {
     text-transform: uppercase;
   }
 
+  #menu ul {
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 40px;
+  }
+
   #menu li {
-    margin-left: 20px;
+    clear: both;
+    height: 40px;
   }
 
   #main-text {
