@@ -214,6 +214,7 @@ h1 {
 #about {
   background-color: #fafafa;
   height: 900px;
+  text-align: center;
 }
 
 #about-container {
@@ -226,11 +227,12 @@ h1 {
 #about-container > h2 {
   font-size: 240%;
   text-transform: uppercase;
+  margin-bottom:15px;
 }
 #about-text {
   line-height: 30px;
-  width: 45%;
-  margin: 20px 0;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #about-text > p {
@@ -250,14 +252,12 @@ h1 {
 
 #about-text p:nth-child(5) {
   font-weight: bold;
-} 
-
+}
 /* for medium screen sizes from 1024px px wide and down */
 @media screen and (max-width: 1024px) {
   #about {
-    padding: 20% 0;
+    padding: 10% 0;
     height: auto;
-    
   }
   #about-container > h2 {
     font-size: 220%;
@@ -281,7 +281,6 @@ h1 {
     font-weight: bold;
   }
 }
-
 /*  contact */
 
 #contact {
@@ -355,7 +354,7 @@ h1 {
 #footer-container {
   color: #fafafa;
   padding: 3%;
-  height: 150px;
+  height: 100px;
   margin: 0 auto;
 }
 
@@ -388,6 +387,9 @@ h1 {
   margin: 1%;
   padding: 5%;
   color: #fafafa;
+}
+.footer-media i:hover {
+  color: #ccc;
 }
 
 /* for medium screen sizes from 768px px wide and down */
