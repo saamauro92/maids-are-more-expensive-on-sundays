@@ -29,7 +29,6 @@ body {
 a {
   text-decoration: none;
 }
-
 /* Sections Layout */
 header,
 #main-container,
@@ -41,7 +40,6 @@ header,
   max-width: 1280px;
   margin: 0 auto;
 }
-
 /* heading and logo */
 
 header {
@@ -52,7 +50,6 @@ h1 {
   line-height: 43px;
   color: #fafafa;
 }
-
 #logo {
   float: left;
   font-size: 140%;
@@ -96,7 +93,6 @@ h1 {
 }
 
 /* main  image and text */
-
 #main {
   width: 100%;
   color: #fafafa;
@@ -211,7 +207,6 @@ h1 {
 }
 
 /*  About the book */
-
 #about {
   background-color: #fafafa;
   height: 900px;
@@ -282,8 +277,8 @@ h1 {
     font-weight: bold;
   }
 }
-/*  contact */
 
+/*  contact */
 #contact {
   height: 900px;
   background: url("../images/book_cover_picture.png") no-repeat center center;
@@ -351,7 +346,6 @@ h1 {
 }
 
 /* footer */
-
 #footer-container {
   color: #fafafa;
   padding: 1%;
@@ -409,7 +403,6 @@ h1 {
 }
 
 /* about the author page */
-
 #author {
   width: 100%;
   background-color: #fafafa;
@@ -472,21 +465,9 @@ h1 {
 }
 
 /*  fadein animation */
-
 .animated {
-  -webkit-animation-duration: 3s;
   animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes fadeIn {
@@ -499,12 +480,10 @@ h1 {
 }
 
 .fadeIn {
-  -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
 /* sucess page */
-
 #sucess {
   width: 100%;
   color: #fafafa;
@@ -532,7 +511,6 @@ h1 {
   letter-spacing: 1px;
   font-size: 100%;
   font-family: "Source Sans Pro", sans-serif;
-  color: lue;
 }
 
 #sucess-icon {
