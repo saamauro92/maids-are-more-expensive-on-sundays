@@ -1,10 +1,14 @@
-# maids-are-more-expensive-on-sundays
+# Maids are more expensive on Sundays  
 
-Maids Are More Expensive On Sundays is a landing page for every book lover interested to know more and where to purchase the novel written by Alicia I Ciocca "Maids are more expensive on Sundays"
+**Maids Are More Expensive On Sundays** is a landing page for every **book lover** interested to know more and where to purchase the novel written **by Alicia I Ciocca "Maids are more expensive on Sundays"**
 
-Maids Are More Expensive On Sundays landing page offers an introduction of the book,a link to get the book on Amazon, an author biography as well as a contact form to get in touch with the author or give a comment about the book.
+  
 
-The live link can be found here - https://saamauro92.github.io/maids-are-more-expensive-on-sundays/index.html
+Maids Are More Expensive On Sundays landing page offers an **introduction of the book, a link to get the book on Amazon, an author biography as well as a contact form** to get in touch with the author or give a comment about the book.
+
+  
+
+**The live link can be found here** - https://saamauro92.github.io/maids-are-more-expensive-on-sundays/index.html
 
 
 ![Responsive Mockup](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/amIResponsive.png)
