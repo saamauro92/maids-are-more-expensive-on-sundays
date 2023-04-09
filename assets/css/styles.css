@@ -37,10 +37,9 @@ header,
 #contact-container,
 #footer-container,
 #author-container,
-#sucess-container  {
+#sucess-container {
   max-width: 1280px;
   margin: 0 auto;
-  
 }
 
 /* heading and logo */
@@ -229,7 +228,7 @@ h1 {
 #about-container > h2 {
   font-size: 240%;
   text-transform: uppercase;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 #about-text {
   line-height: 30px;
@@ -355,8 +354,7 @@ h1 {
 
 #footer-container {
   color: #fafafa;
-  padding: 3%;
-  height: 100px;
+  padding: 1%;
   margin: 0 auto;
 }
 
@@ -378,16 +376,17 @@ h1 {
 
 .footer-media {
   text-align: center;
+  margin: 20px 0;
 }
 
 .footer-media > li {
   display: inline;
+  margin: 0 10px;
 }
 
 .footer-media i {
   font-size: 160%;
   margin: 1%;
-  padding: 5%;
   color: #fafafa;
 }
 .footer-media i:hover {
@@ -396,6 +395,9 @@ h1 {
 
 /* for medium screen sizes from 768px px wide and down */
 @media screen and (max-width: 768px) {
+  #footer-container {
+    padding: 6%;
+  }
   #footer-links a {
     margin: 15px 0;
     display: block;
@@ -501,41 +503,39 @@ h1 {
   animation-name: fadeIn;
 }
 
-
 /* sucess page */
 
 #sucess {
-    width: 100%;
-    color: #fafafa;
-    overflow: hidden;
-    text-align:center;
-    margin:10% auto;
-  }
-  
-  #sucess-container {
-    overflow: hidden;
-    padding:0 15px;
-  }
+  width: 100%;
+  color: #fafafa;
+  overflow: hidden;
+  text-align: center;
+  margin: 10% auto;
+  height: 80%;
+}
 
-  #sucess-text p {
-    width: 100%;
-    letter-spacing: 1px;
-    font-size: 120%;
-    font-family: "Source Sans Pro", sans-serif;
-    margin:20px 0;
+#sucess-container {
+  overflow: hidden;
+  padding: 0 15px;
+}
 
-  }
+#sucess-text p {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 120%;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 20px 0;
+}
 
-  #sucess-text a {
-    width: 100%;
-    letter-spacing: 1px;
-    font-size: 100%;
-    font-family: "Source Sans Pro", sans-serif;
-    color: lue;
+#sucess-text a {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: lue;
+}
 
-  }
-
-  #sucess-icon {
-   font-size:46px;
-margin:10px 0;
-  }
+#sucess-icon {
+  font-size: 46px;
+  margin: 10px 0;
+}
