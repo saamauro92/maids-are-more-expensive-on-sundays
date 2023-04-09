@@ -36,9 +36,11 @@ header,
 #about-container,
 #contact-container,
 #footer-container,
-#author-container {
+#author-container,
+#sucess-container  {
   max-width: 1280px;
   margin: 0 auto;
+  
 }
 
 /* heading and logo */
@@ -498,3 +500,42 @@ h1 {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+
+/* sucess page */
+
+#sucess {
+    width: 100%;
+    color: #fafafa;
+    overflow: hidden;
+    text-align:center;
+    margin:10% auto;
+  }
+  
+  #sucess-container {
+    overflow: hidden;
+    padding:0 15px;
+  }
+
+  #sucess-text p {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 120%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin:20px 0;
+
+  }
+
+  #sucess-text a {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    color: lue;
+
+  }
+
+  #sucess-icon {
+   font-size:46px;
+margin:10px 0;
+  }
