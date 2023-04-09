@@ -101,7 +101,7 @@ The live link can be found here - https://saamauro92.github.io/maids-are-more-ex
 
 **Solved bugs**
 
- - When passing the html code through validator I found out that some elements on the header had a closure "/" when it was not needed.
+ - When passing the html code through validator I found out that some elements on the head had a closure "/" when it was not needed.
 liked this: 
 `<meta  charset="UTF-8"/>`
 `<meta  http-equiv="X-UA-Compatible"  content="IE=edge"/>`
