@@ -1,10 +1,10 @@
 # Maids are more expensive on Sundays  
 
-**Maids Are More Expensive On Sundays** is a landing page for every **book lover** interested to know more and where to purchase the novel written **by Alicia I Ciocca "Maids are more expensive on Sundays"**
+**Maids Are More Expensive On Sundays** is a landing page for every **book lover** interested  in knowing more and where to purchase the novel written **by Alicia I Ciocca "Maids are more expensive on Sundays"**
 
   
 
-Maids Are More Expensive On Sundays landing page offers an **introduction of the book, a link to get the book on Amazon, an author biography as well as a contact form** to get in touch with the author or give a comment about the book.
+Maids Are More Expensive On Sundays landing page offers an **introduction of the book, a link to get the book on Amazon, an author biography, as well as a contact form** to get in touch with the author or give a comment about the book.
 
   
 
@@ -19,49 +19,49 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo/home page, Home, about the author page and contact section and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the logo/home page, Home, about the author page, and contact section, and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![header](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/navbar.png)
 
 - __The main hero section__
 
-  - The landing includes an image of the book front in one side and text in the other side with brief introduction and an action button to get the book.
+  - The landing page includes an image of the book cover on one side and text on the other, along with a brief introduction and an action button to get the book.
   - This section introduces the user to the image and text with a fade in animation.
 
 ![Hero Section](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/hero.png)
 
 - __About the book section__
 
-  - The about the book section will allow the user to see the book sinopsis 
+  - The about the book section will allow the user to see the book synopsis 
 
 ![About the book](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/aboutthebook.png)
 
 - __Contact form section__
 
-  - This section will allow the user to send a message/comment to the author. the user will be asked to submit their full name, email addresss and a required message in order to submit the form.
-  - After submited, the form will redirect to a success page.
+  - This section will allow the user to send a message/comment to the author. The user will be asked to submit their full name, email addresses, and a required message in order to submit the form.
+  - After being submitted, the form will redirect to a success page.
 
 ![Contact](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/contact.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Maids are more expensive on Sundays. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer section includes links to the home page, about the author, contact form section and to get the book on amazon which will open to a new tab.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites. The links will open in a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the home page, about the author, a contact form, and to get the book on Amazon, which will open in a new tab.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/footer.png)
 
 - __About the author Page__
 
   - The about the author page will provide the user with information about the author, including a profile picture.
-  - This section is valuable to the user as they will be able to get the authors background to understand more about the book.
+  - This section is valuable to the user as they will be able to get the author's background to understand more about the book.
 
 ![About the author](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/theauthor.png)
 
 - __Sucess Page__
 
-  - This page will allow the user to get a feedback after submitting the contact form.
+  - This page will allow the user to get feedback after submitting the contact form.
 
 
 ![Success page](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/sucess.png)
@@ -70,13 +70,13 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
 - __Feedback Section__ 
 
-- This section would show users/readers feedback about the book 
+- This section would show users/readers feedback about the book. 
 
 ## Testing 
 
-- I tested that this landing page works in different browsers: Chrome, Firefox, Safari.
-- I confirmed that the navigation, header, about the book, contact form and about the author sections are all readable and easy to understand.
-- I have confirmed that the forms works: requires all the fields to be submitted and the submit button works and will redirect to success page when submitted.
+- I tested that this landing page works in different browsers: Chrome, Firefox and Safari.
+- I confirmed that the navigation, header, about the book, contact form, and about the author sections are all readable and easy to understand.
+- I have confirmed that the forms work: requires all the fields to be submitted, and the submit button works and will redirect to the success page when submitted.
 
 ## Validator Testing
 
@@ -85,7 +85,7 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
  - CSS 
  -No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
  - Accessibility
- -I confirmed that the colors and fonts chosen are easy to read and accesible by running it through lighthouse devtools
+ -I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse devtools
  ![lighthouse](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/lighthouse.png)
 
 
@@ -94,18 +94,18 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
 | Feature | Expect | Action | Result |
 |--|--|--|--|
-| Nav bar links | When clicked each page or section will open/show | Clicked each link on the Nav bar | Page/section clicked opened/show |
-| Hero Action Button | When clicked will open a new tab with an amazon link | clicked the hero action button | Amazon link opened in a new tab |
-| Footer links | When clicked each page or section will open/show | Clicked each link on footers menu | Page/section clicked opened/show |
+| Nav bar links | When clicked, each page or section will open/show | Clicked each link on the Nav bar | Page/section clicked opened/show |
+| Hero Action Button | When clicked, it will open a new tab with an Amazon link. | clicked the hero action button | Amazon link opened in a new tab |
+| Footer links | When clicked, each page or section will open/show | Clicked each link on the footers menu | Page/section clicked opened/show |
 | Footer Social Links | Social links icons open relevant websites in a new tab when clicked | clicked the social link icon | the link opened a new tab and to the correct site |
-| Form submit Button | forms submits when submit button is clicked | clicked the submit button on the form | the form sucessfully submitted on click and redirects to a success page |
-| Read more Link in hero | When clicked will smoothly scroll down to about the book sction | clicked the link in hero section | smoothly scrolled down to the about the book section |
+| Form submit Button | forms submits when submit button is clicked | clicked the submit button on the form | the form is sucessfully submitted on click and redirects to a success page |
+| Read more Link in hero | When clicked, will smoothly scroll down to about the book sction | clicked the link in hero section | smoothly scrolled down to the about the book section |
 
 ## Bugs
 
 **Solved bugs**
 
- - When passing the html code through validator I found out that some elements on the head had a closure "/" when it was not needed.
+ - When passing the html code through the validator, I found out that some elements on the head had a closure "/" when it was not needed.
 liked this: 
 `<meta  charset="UTF-8"/>`
 `<meta  http-equiv="X-UA-Compatible"  content="IE=edge"/>`
