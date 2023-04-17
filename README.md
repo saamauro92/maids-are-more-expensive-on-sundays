@@ -317,3 +317,5 @@ liked this:
 - Used [tinypng](https://tinypng.com/) to optimized website
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- Used [Figma](https://www.figma.com/) to draw the wireframes.
