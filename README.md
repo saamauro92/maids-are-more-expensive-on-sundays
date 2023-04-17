@@ -287,6 +287,10 @@ liked this:
   
   - The site was developed using HTML and CSS.
   
+  - Used [Figma](https://www.figma.com/) to draw the wireframes.
+  
+  - Used [StackEdit](https://stackedit.io/) to write README
+  
 
 ## Credits
 
