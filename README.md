@@ -14,7 +14,7 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
   
 
-**The live link can be found here** - https://saamauro92.github.io/maids-are-more-expensive-on-sundays/index.html
+**The live link can be found here** - https://saamauro92.github.io/maids-are-more-expensive-on-sundays
 
   
   
