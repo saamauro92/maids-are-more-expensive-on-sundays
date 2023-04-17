@@ -40,6 +40,9 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
  
  - [Testing](#testing)
    - [Validator Testing](#validator-testing)
+     - [HTML](#html)
+     - [CSS](#css)
+    - [Accessibility](#accessibility)
    - [Manual testing](#manual-testing)
    - [Bugs](#bugs)
 
