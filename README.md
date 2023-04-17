@@ -192,6 +192,8 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
 - I tested that this landing page works in different browsers: Chrome, Firefox and Safari.
 
+- I tested that this landing page works well either in desktop or mobile.
+
 - I confirmed that the navigation, header, about the book, contact form, and about the author sections are all readable and easy to understand.
 
 - I have confirmed that the forms work: requires all the fields to be submitted, and the submit button works and will redirect to the success page when submitted.
@@ -202,17 +204,26 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
 
   
 
-- HTML
+##### HTML
 
--No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/#validate_by_input)
+- No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/#validate_by_input)
 
-- CSS
+##### CSS
 
--No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-- Accessibility
+#### Accessibility
 
--I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse devtools
+ - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse devtools
+
+  
+ - I ensured that images have an alt attribute.
+
+  
+- Used aria lables
+
+  
+- Used semantic html
 
 ![lighthouse](https://github.com/saamauro92/maids-are-more-expensive-on-sundays/raw/main/media/lighthouse.png)
 
@@ -288,7 +299,7 @@ liked this:
   - The site was developed using HTML and CSS.
   
   - Used [Figma](https://www.figma.com/) to draw the wireframes.
-  
+
   - Used [StackEdit](https://stackedit.io/) to write README
   
 
