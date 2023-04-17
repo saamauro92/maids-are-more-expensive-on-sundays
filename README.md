@@ -54,6 +54,8 @@ Maids Are More Expensive On Sundays landing page offers an **introduction of the
   - [Content](#content)
   - [Media](#media)
 
+- [Acknowledgement](#acknowledgement)
+
 
 ---
 
@@ -337,3 +339,8 @@ liked this:
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 - Used [Figma](https://www.figma.com/) to draw the wireframes.
+
+
+### Acknowledgments
+
+- Alicia I Ciocca for allowing me using your book content.
