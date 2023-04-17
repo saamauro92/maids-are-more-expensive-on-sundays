@@ -343,4 +343,4 @@ liked this:
 
 ### Acknowledgments
 
-- Alicia I Ciocca for allowing me using your book content.
+- Alicia I Ciocca for allowing me using her book content.
